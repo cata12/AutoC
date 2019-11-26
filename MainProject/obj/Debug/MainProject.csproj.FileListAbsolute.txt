@@ -1,0 +1,7 @@
+C:\AutomationTraining\MainProject\MainProject\bin\Debug\MainProject.exe.config
+C:\AutomationTraining\MainProject\MainProject\bin\Debug\MainProject.exe
+C:\AutomationTraining\MainProject\MainProject\bin\Debug\MainProject.pdb
+C:\AutomationTraining\MainProject\MainProject\obj\Debug\MainProject.csprojAssemblyReference.cache
+C:\AutomationTraining\MainProject\MainProject\obj\Debug\MainProject.csproj.CoreCompileInputs.cache
+C:\AutomationTraining\MainProject\MainProject\obj\Debug\MainProject.exe
+C:\AutomationTraining\MainProject\MainProject\obj\Debug\MainProject.pdb
