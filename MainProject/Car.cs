@@ -10,7 +10,7 @@ namespace MainProject
             _carMake = make;
             _carModel = model;
             _carModel = model;
-            _carRegistration = registration;
+            _carRegistrationNumber = registration;
             _carYear = year;
             _carCurrentValue = currentValue;
         }
@@ -30,7 +30,7 @@ namespace MainProject
                                  "Car Model: {1}\n" +
                                  "Car Registration: {2}\n" +
                                  "Car Year: {3}\n" +
-                                 "Current Value: {4}", _carMake, _carModel, _carRegistration, _carYear, _carCurrentValue);
+                                 "Current Value: {4}", _carMake, _carModel, _carRegistrationNumber, _carYear, _carCurrentValue);
         }
     }
 }
