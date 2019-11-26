@@ -17,7 +17,6 @@ namespace MainProject
             //FirstExercise
             foreach (var nume in nameList)
                 Console.WriteLine(CultureInfo.CurrentCulture.TextInfo.ToTitleCase(nume.ToLower()));
-            Console.ReadLine();
 
             //SecondExercise
             List<char> vowelList = new List<char> { 'a', 'e', 'i', 'o', 'u' };
@@ -27,13 +26,15 @@ namespace MainProject
                 if (vowelList.Contains(nume[0]))
                     Console.WriteLine(CultureInfo.CurrentCulture.TextInfo.ToTitleCase(nume.ToLower()));
             }
-            Console.ReadLine();
 
             foreach (var nume in nameList)
             {
                 if (!nume.StartsWith("a") && !nume.StartsWith("e") && !nume.StartsWith("i") && !nume.StartsWith("o") && !nume.StartsWith("u"))
                     Console.WriteLine(CultureInfo.CurrentCulture.TextInfo.ToTitleCase(nume.ToLower()));
             }
+
+            Car car = new Car("Hyundai", "Tucson", "First Registration", "2019", 30000);
+            Console.WriteLine(car);
             Console.ReadLine();
         }
     }
